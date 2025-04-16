@@ -201,5 +201,5 @@ const HIDE_BUILTIN_ADULT_APIS = false;
 
 // 用户认证配置
 const AUTH_CONFIG = {
-    accessCode: '444666', // 访问密码
+    accessCode: '254613', // 访问密码
 };
