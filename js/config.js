@@ -201,6 +201,6 @@ const HIDE_BUILTIN_ADULT_APIS = false;
 
 // 用户认证配置
 const AUTH_CONFIG = {
-    accessCode: 'cipheror', // 访问密码
+    accessCode: '254613', // 访问密码
     blogPostUrl: 'https://blog.cipheror.com/86701aeddb51' // 获取访问密码的博客文章地址
 };
