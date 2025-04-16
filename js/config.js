@@ -201,6 +201,5 @@ const HIDE_BUILTIN_ADULT_APIS = false;
 
 // 用户认证配置
 const AUTH_CONFIG = {
-    accessCode: '254613', // 访问密码
-    blogPostUrl: '密码254613' // 获取访问密码的博客文章地址
+    accessCode: '444666', // 访问密码
 };
