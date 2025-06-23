@@ -128,16 +128,16 @@ const API_SITES = {
          name: 'CK资源',
          adult: true
      },
-    // jkun: {
-    //     api: 'https://jkunzyapi.com',
-    //     name: 'jkun资源',
-    //     adult: true
-    // },
-    // bwzy: {
-    //     api: 'https://api.bwzym3u8.com',
-    //     name: '百万资源',
-    //     adult: true
-    // },
+    jkun: {
+         api: 'https://jkunzyapi.com',
+         name: 'jkun资源',
+         adult: true
+     },
+    bwzy: {
+         api: 'https://api.bwzym3u8.com',
+         name: '百万资源',
+         adult: true
+     },
     // souav: {
     //     api: 'https://api.souavzy.vip',
     //     name: 'souav资源',
