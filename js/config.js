@@ -39,10 +39,10 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
+     xiaomaomi: {
+         api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+         name: '小猫咪资源',
+    },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
@@ -180,7 +180,7 @@ const API_SITES = {
      },
 };
 
-// 添加聚合搜索的配置选项
+ 添加聚合搜索的配置选项
 const AGGREGATED_SEARCH_CONFIG = {
     enabled: true,             // 是否启用聚合搜索
     timeout: 8000,            // 单个源超时时间（毫秒）
@@ -189,7 +189,7 @@ const AGGREGATED_SEARCH_CONFIG = {
     showSourceBadges: true    // 是否显示来源徽章
 };
 
-// 抽象API请求配置
+ 抽象API请求配置
 const API_CONFIG = {
     search: {
         // 只拼接参数部分，不再包含 /api.php/provide/vod/
@@ -211,13 +211,13 @@ const API_CONFIG = {
     }
 };
 
-// 优化后的正则表达式模式
+ 优化后的正则表达式模式
 const M3U8_PATTERN = /\$https?:\/\/[^"'\s]+?\.m3u8/g;
 
-// 添加自定义播放器URL
+ 添加自定义播放器URL
 const CUSTOM_PLAYER_URL = 'player.html'; // 使用相对路径引用本地player.html
 
-// 增加视频播放相关配置
+ 增加视频播放相关配置
 const PLAYER_CONFIG = {
     autoplay: true,
     allowFullscreen: true,
@@ -230,7 +230,7 @@ const PLAYER_CONFIG = {
     adFilteringStorage: 'adFilteringEnabled' // 存储广告过滤设置的键名
 };
 
-// 增加错误信息本地化
+ 增加错误信息本地化
 const ERROR_MESSAGES = {
     NETWORK_ERROR: '网络连接错误，请检查网络设置',
     TIMEOUT_ERROR: '请求超时，服务器响应时间过长',
@@ -239,7 +239,7 @@ const ERROR_MESSAGES = {
     UNKNOWN_ERROR: '发生未知错误，请刷新页面重试'
 };
 
-// 添加进一步安全设置
+ 添加进一步安全设置
 const SECURITY_CONFIG = {
     enableXSSProtection: true,  // 是否启用XSS保护
     sanitizeUrls: true,         // 是否清理URL
@@ -247,7 +247,7 @@ const SECURITY_CONFIG = {
     // allowedApiDomains 不再需要，因为所有请求都通过内部代理
 };
 
-// 添加多个自定义API源的配置
+ 添加多个自定义API源的配置
 const CUSTOM_API_CONFIG = {
     separator: ',',           // 分隔符
     maxSources: 5,            // 最大允许的自定义源数量
@@ -259,5 +259,5 @@ const CUSTOM_API_CONFIG = {
     adultPropName: 'isAdult' // 用于标记成人内容的属性名
 };
 
-// 隐藏内置黄色采集站API的变量
+ 隐藏内置黄色采集站API的变量
 const HIDE_BUILTIN_ADULT_APIS = false;
